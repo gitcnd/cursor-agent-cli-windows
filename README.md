@@ -125,7 +125,7 @@ If you want to patch a newer version:
    # Package will be in ~/.cursor/
    ```
 
-2. Copy the package to Windows
+2. Copy the package to Windows, run `npx terser index.js --beautify --comments all > index-new.js`
 
 3. Apply patches to `index.js`:
    - Replace `../merkle-tree/native.js` module with stub
